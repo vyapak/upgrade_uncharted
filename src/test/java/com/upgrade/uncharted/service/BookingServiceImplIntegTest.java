@@ -25,7 +25,7 @@ import static org.mockito.Mockito.verify;
 
 @SpringBootTest
 @DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_EACH_TEST_METHOD)
-public class BookingServiceIntegTest {
+public class BookingServiceImplIntegTest {
 
     @Autowired
     private BookingServiceImpl bookingService;
